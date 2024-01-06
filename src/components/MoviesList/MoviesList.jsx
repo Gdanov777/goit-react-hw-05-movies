@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Box } from 'components/Box';
+import { Box } from 'components/Box/Box';
 import { getPoster } from 'api';
 
 export const MoviesList = ({ movies, text }) => {

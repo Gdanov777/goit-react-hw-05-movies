@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchMovieReviews } from 'api';
 import { useParams } from 'react-router-dom';
-import { Loader } from 'components/Loader';
+import { Loader } from 'components/Loader/Loader';
 import { toast } from 'react-toastify';
 import { Text, TextReview } from './Reviews.styled';
 

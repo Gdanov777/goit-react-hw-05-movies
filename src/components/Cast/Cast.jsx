@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { fetchMovieCredits } from 'api';
 import { useParams } from 'react-router-dom';
 import { PhotoWrapper, Container } from './Cast.styled';
-import { Loader } from 'components/Loader';
+import { Loader } from 'components/Loader/Loader';
 import { toast } from 'react-toastify';
 import { getPoster } from 'api';
 

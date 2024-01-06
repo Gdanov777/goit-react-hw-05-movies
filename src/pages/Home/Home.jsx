@@ -2,8 +2,8 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
 import { fetchTrending } from 'api';
-import { MoviesList } from 'components/MoviesList';
-import { Loader } from 'components/Loader';
+import { MoviesList } from 'components/MoviesList/MoviesList';
+import { Loader } from 'components/Loader/Loader';
 
 const Home = () => {
   const [trending, setTrending] = useState([]);

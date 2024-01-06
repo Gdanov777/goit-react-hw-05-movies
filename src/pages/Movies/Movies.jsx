@@ -2,8 +2,8 @@ import { SearchBar } from 'components/SearchBar/SearchBar';
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { fetchSearchMovies } from 'api';
-import { MoviesList } from 'components/MoviesList';
-import { Loader } from 'components/Loader';
+import { MoviesList } from 'components/MoviesList/MoviesList';
+import { Loader } from 'components/Loader/Loader';
 import { useSearchParams } from 'react-router-dom';
 
 const Movies = () => {
